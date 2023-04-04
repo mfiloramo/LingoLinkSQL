@@ -1,4 +1,4 @@
-# WorldChat SQL & T-SQL Repository
+# WorldChat T-SQL Repository
 This document provides a comprehensive overview of the SQL database schema and Stored Procedures for a messaging application built in Angular, which leverages the Google Translate API to facilitate fluent conversation between two or more people speaking different languages.
 
 ## Table Structure
