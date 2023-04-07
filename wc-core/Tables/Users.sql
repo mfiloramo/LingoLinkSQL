@@ -1,26 +1,8 @@
 CREATE TABLE [dbo].[Users](
     [user_id] [int] IDENTITY(1,1) NOT NULL,
-    [username] [nvarchar](255) NOT NULL,
-    [email] [nvarchar](255) NOT NULL,
-    [password] [nvarchar](255) NOT NULL
+    [username] [nvarchar](255) NOT NULL UNIQUE,
+    [email] [nvarchar](255) NOT NULL UNIQUE,
+    [password] [nvarchar](255) NOT NULL,
+    PRIMARY KEY CLUSTERED ([user_id] ASC)
     ) ON [PRIMARY]
-    GO
-ALTER TABLE [dbo].[Users] ADD PRIMARY KEY CLUSTERED
-    (
-    [user_id] ASC
-    )WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-    GO
-    SET ANSI_PADDING ON
-    GO
-ALTER TABLE [dbo].[Users] ADD UNIQUE NONCLUSTERED
-    (
-    [email] ASC
-    )WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-    GO
-    SET ANSI_PADDING ON
-    GO
-ALTER TABLE [dbo].[Users] ADD UNIQUE NONCLUSTERED
-    (
-    [username] ASC
-    )WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-    GO
+GO
