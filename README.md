@@ -3,7 +3,7 @@
 </p>
 
 # LingoLink T-SQL Repository
-This document provides a comprehensive overview of the SQL database schema and Stored Procedures for a messaging application built in Angular, which leverages the Google Translate API to facilitate fluent conversation between two or more people speaking different languages.
+This document provides a comprehensive overview of the SQL database schema and Stored Procedures for a the LingoLink application API, which leverages the Google Translate API to facilitate fluent conversation between two or more people speaking different languages.
 
 ## Table Structure
 The database contains four main tables: `Conversations`, `Messages`, `Participants` and `Users`.
