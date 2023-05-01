@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72812809/235482535-571dd542-8214-4dcc-ad81-d5001eac5d22.png" alt="readmeLogo" width="40%" height="40%" />
+</p>
+
 # LingoLink T-SQL Repository
 This document provides a comprehensive overview of the SQL database schema and Stored Procedures for a messaging application built in Angular, which leverages the Google Translate API to facilitate fluent conversation between two or more people speaking different languages.
 
