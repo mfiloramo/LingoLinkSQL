@@ -75,8 +75,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 These project files were developed by me, Michael Filoramo, to showcase samples of past work I've done in the Angular/Node/Express/TSQL stack.
 
 ## Contributing
-Contributions are always welcome! If you'd like to contribute to any of the projects in this repository, please follow the steps listed in the respective project's README.
-
-## Acknowledgments
-- Angular for the web application framework.
-- Azure for SQL Server hosting services.
+Contributions are always welcome! If you'd like to contribute to any of the projects in this repository, please contact the project owner.
